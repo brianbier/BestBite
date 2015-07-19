@@ -20,6 +20,10 @@ html, body {
   padding:10px 20px;
   
 }
+.header a{
+  text-decoration: none;
+  color:#d8192f;
+}
 
 .nav-pills li{
     padding:10px 10px;
@@ -50,6 +54,11 @@ html, body {
   background-image:url("http://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
   background-size:cover;
 }
+.jumbotron a{
+  text-decoration: none;
+  color: #fff;
+
+}
 .jumbotron .container {
     color:white;
     padding-left:35%;
@@ -77,6 +86,7 @@ html, body {
     padding:10px 20px;
     margin-top:5px;
 }
+/* Section */
 
 .section  {
     text-align:center;
@@ -85,6 +95,11 @@ html, body {
 .meal{
     color:rgba(216,25,47,1);
     padding:20px 0px 0px 5px;
+}
+.meal:hover{
+  font-size: 25px;
+}
+
 }
 .page-header {
   margin-top:-20px;
